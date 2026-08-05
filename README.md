@@ -18,3 +18,8 @@ Next step I installed JDK
 
 <img width="554" height="522" alt="image" src="https://github.com/user-attachments/assets/868ec55c-d80d-4f9e-8797-fbfdd05ae392" />
 
+### Step 2: Accessing the EC2 Instance via SSH
+
+Connected to the running Jenkins EC2 server via SSH using PowerShell:
+ssh -i "C:\Users\lenovo\Downloads\jenkins.pem" ubuntu@13.63.175.50
+
