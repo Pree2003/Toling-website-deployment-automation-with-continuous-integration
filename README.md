@@ -18,8 +18,17 @@ Next step I installed JDK
 
 <img width="554" height="522" alt="image" src="https://github.com/user-attachments/assets/868ec55c-d80d-4f9e-8797-fbfdd05ae392" />
 
+<img width="554" height="401" alt="image" src="https://github.com/user-attachments/assets/2cddf5c2-b674-4aee-a0c5-6593ca717563" />
+
+
 ### Step 2: Accessing the EC2 Instance via SSH
 
 Connected to the running Jenkins EC2 server via SSH using PowerShell:
 ssh -i "C:\Users\lenovo\Downloads\jenkins.pem" ubuntu@13.63.175.50
 
+<img width="554" height="401" alt="image" src="https://github.com/user-attachments/assets/97112128-7a31-49a9-a44d-ee4441abe576" />
+
+### Step 3: Updating Package Index
+
+Updated the local package repository index to ensure the latest package lists and dependencies are retrieved:
+sudo apt update
