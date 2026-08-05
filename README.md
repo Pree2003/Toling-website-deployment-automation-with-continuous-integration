@@ -84,5 +84,26 @@ deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/deb
 
 I used sudo sysyemctl status jenkins to check if Jenkins is active 
 
+<img width="553" height="336" alt="image" src="https://github.com/user-attachments/assets/ab28844b-724d-4495-9f52-51aafa27c51a" />
 
+Unlocking Jenkins required me to access password so I used the command: sudo cat /var/lib/jenkins/secrets/initialAdminPassword and it returned 
+
+369bc179662249d7ac07428c2a843cd2 
+
+<img width="554" height="333" alt="image" src="https://github.com/user-attachments/assets/7e147f0c-b71c-49a2-981e-c999f852d701" />
+
+Finally logged into Jenkins 
+
+<img width="554" height="298" alt="image" src="https://github.com/user-attachments/assets/210c1605-f53c-488d-b248-2e167d3c85ae" />
+
+<img width="554" height="339" alt="image" src="https://github.com/user-attachments/assets/2ccbf411-5a92-4573-9e20-812637e8c7d2" />
+
+I created first user admin 
+
+<img width="554" height="335" alt="image" src="https://github.com/user-attachments/assets/9566ec6a-2d4c-4d07-bd93-36139b742eb0" />
+
+
+<img width="554" height="334" alt="image" src="https://github.com/user-attachments/assets/3e2869fc-9c69-494d-b61a-f48924cfe35a" />
+
+Finally Jenkins was ready
 
