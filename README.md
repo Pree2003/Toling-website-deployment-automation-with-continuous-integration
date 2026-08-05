@@ -32,3 +32,11 @@ ssh -i "C:\Users\lenovo\Downloads\jenkins.pem" ubuntu@13.63.175.50
 
 Updated the local package repository index to ensure the latest package lists and dependencies are retrieved:
 sudo apt update
+
+<img width="553" height="284" alt="image" src="https://github.com/user-attachments/assets/17d88be0-fabc-499d-8bd2-17f5a719b760" />
+
+### Step 4: Installing OpenJDK
+
+Jenkins requires Java to run. Installed the headless Java Development Kit (JDK) package:
+sudo apt install -y default-jdk-headless
+
