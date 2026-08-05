@@ -80,4 +80,9 @@ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc] https://pkg.jenkins.
 
 deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ to replace old key with the new key. 
 
+<img width="554" height="166" alt="image" src="https://github.com/user-attachments/assets/1bbd28bd-6aaa-413d-9f80-931d0bb3fc61" />
+
+I used sudo sysyemctl status jenkins to check if Jenkins is active
+
+
 
