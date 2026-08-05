@@ -38,5 +38,5 @@ sudo apt update
 ### Step 4: Installing OpenJDK
 
 Jenkins requires Java to run. Installed the headless Java Development Kit (JDK) package:
-sudo apt install -y default-jdk-headless
+sudo apt install -y default-jdk-headless 
 
