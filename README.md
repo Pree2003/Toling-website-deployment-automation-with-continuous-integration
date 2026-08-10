@@ -107,3 +107,4 @@ I created first user admin
 
 Finally Jenkins was ready
 
+Testing Jenkins webhook
